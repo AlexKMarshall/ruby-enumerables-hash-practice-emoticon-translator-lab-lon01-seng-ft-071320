@@ -1,7 +1,8 @@
 # require modules here
+require "yaml"
 
 def load_library(path)
-  emoticons = T
+  emoticons = YAML.load_file(path)
   result = {get_meaning: {}, get_emoticon: {}}
 end
 
