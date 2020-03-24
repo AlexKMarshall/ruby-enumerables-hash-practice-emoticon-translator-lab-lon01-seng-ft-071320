@@ -18,5 +18,5 @@ def get_japanese_emoticon(path, emoticon)
 end
 
 def get_english_meaning(path, emoticon)
-  load_library(path)[:get_meaning].fetch(emoticon)
+  load_library(path)
 end
