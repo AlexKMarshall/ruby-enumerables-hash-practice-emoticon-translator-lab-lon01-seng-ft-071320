@@ -1,6 +1,7 @@
 # require modules here
 
 def load_library(path)
+  emoticons = T
   result = {get_meaning: {}, get_emoticon: {}}
 end
 
