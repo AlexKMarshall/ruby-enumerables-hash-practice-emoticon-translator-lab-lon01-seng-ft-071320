@@ -1,7 +1,7 @@
 # require modules here
 
 def load_library(path)
-  result = {"ge}
+  result = {get_meaning: {}}
 end
 
 def get_japanese_emoticon
