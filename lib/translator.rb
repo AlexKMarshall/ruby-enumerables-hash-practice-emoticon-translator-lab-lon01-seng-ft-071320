@@ -9,7 +9,7 @@ def load_library(path)
     japanese_emoticon = value[1]
     english_emoticon = value[0]
     memo[:get_meaning][japanese_emoticon] = key
-    memo[:get_emoticon][english_emoticon] = key
+    memo[:get_emoticon][english_emoticon] = japanese_emoticon
     memo
   end
 end
