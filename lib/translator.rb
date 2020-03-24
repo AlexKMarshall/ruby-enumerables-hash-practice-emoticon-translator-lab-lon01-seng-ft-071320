@@ -6,7 +6,7 @@ def load_library(path)
   result = {get_meaning: {}, get_emoticon: {}}
   
   result = emoticons.reduce(result) do |memo, (key, value)|
-    japanese_emoticon = value[0]
+    japanese_emoticon = value[1]
     memo[:get_meaning][japanese_emoticon] = {}
     memo
   end
